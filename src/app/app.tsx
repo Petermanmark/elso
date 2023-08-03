@@ -1,3 +1,4 @@
+import { Counter } from './counter';
 import { Gyumolcsok } from './gyumolcsok';
 
 export function App() {
@@ -11,6 +12,7 @@ export function App() {
           { name: 'cseresznye', isRed: true },
         ]}
       />
+      <Counter initialCount={0} />
     </div>
   );
 }

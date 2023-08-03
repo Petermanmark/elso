@@ -1,5 +1,6 @@
 import { Counter } from './counter';
 import { Gyumolcsok } from './gyumolcsok';
+import { Notes } from './notes';
 
 export function App() {
   return (
@@ -13,6 +14,13 @@ export function App() {
         ]}
       />
       <Counter initialCount={0} />
+      <Notes
+        initialNotes={[
+          { text: 'amonger Béla vagyok', id: 0 },
+          { text: 'Samira vagyok', id: 1 },
+          { text: 'Mai teendőim', id: 2 },
+        ]}
+      />
     </div>
   );
 }

@@ -1,12 +1,16 @@
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import styles from './app.module.scss';
-
-import NxWelcome from './nx-welcome';
+import { Gyumolcsok } from './Gyumolcsok';
 
 export function App() {
   return (
     <div>
-      <NxWelcome title="masodik" />
+      <Gyumolcsok
+        data={[
+          { name: 'alma', isRed: true },
+          { name: 'szilva' },
+          { name: 'körte' },
+          { name: 'cseresznye', isRed: true },
+        ]}
+      />
     </div>
   );
 }

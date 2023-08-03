@@ -1,4 +1,4 @@
-import { Gyumolcs, GyumolcsProps } from './Gyumolcs';
+import { Gyumolcs, GyumolcsProps } from './gyumolcs';
 
 export interface GyumolcsokProps {
   data: GyumolcsProps[];

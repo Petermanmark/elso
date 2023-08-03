@@ -1,4 +1,4 @@
-import { Gyumolcsok } from './Gyumolcsok';
+import { Gyumolcsok } from './gyumolcsok';
 
 export function App() {
   return (

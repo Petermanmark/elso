@@ -6,6 +6,7 @@ export type NotesContextType = {
   addNote: (text: string) => void;
   removeNote: (id: number) => void;
 };
+
 export const NotesContext = createContext<NotesContextType>({
   notes: [],
   // eslint-disable-next-line @typescript-eslint/no-empty-function
